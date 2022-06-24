@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./*.vue'],
   theme: {
+    fontFamily: {
+      'sans': ['Montserrat', 'ui-sans-serif', 'system-ui'],
+    },
     extend: {},
   },
   plugins: [],
