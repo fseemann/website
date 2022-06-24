@@ -1,13 +1,13 @@
 <template>
       <div class="py-16">
         <header>
-          <h1 class="font-bold text-6xl leading-loose text-slate-100">Felix Seemann 👋</h1>
-          <p class="text-xl leading-loose">
+          <h1 class="font-bold text-4xl leading-relaxed md:text-6xl md:leading-loose text-slate-100">Felix Seemann 👋</h1>
+          <p class="text-lg leading-relaxed md:text-xl md:leading-loose">
             <span class="text-slate-100 font-bold">Full-Stack Developer</span> und
             <span class="text-slate-100 font-bold">Domain-Driven Design Spezialist</span>
             mit 7+ Jahren Berufserfahrung.</p>
         </header>
-        <main class="text-xl leading-loose space-y-16 mt-16">
+        <main class="text-lg leading-relaxed md:text-xl md:leading-loose space-y-16 mt-16">
           <p>
             Ich schreibe webbasierte Geschäftsanwendung in Kotlin / Java und Vue. Dabei wende ich technische Pattern aus
             Domain-Driven Design an, um Geschäftslogik von technischen Abhängigkeiten zu befreien und verschiede
@@ -42,7 +42,7 @@
             anwende.
           </p>
           <div>
-            <a class="inline-block px-6 py-4 border border-blue-700 bg-blue-700 text-blue-100 rounded rounded-md font-bold tracking-wide"
+            <a class="inline-block px-4 py-2 md:px-6 md:py-4 border border-blue-700 bg-blue-700 text-blue-100 rounded rounded-md font-bold tracking-wide"
                href="mailto:fseemann@mail.de">
               Kontakt aufnehmen
             </a>
