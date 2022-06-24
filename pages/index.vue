@@ -9,10 +9,9 @@
     </header>
     <main class="text-lg leading-relaxed md:text-xl md:leading-loose space-y-16 mt-16">
       <p>
-        Ich schreibe webbasierte Geschäftsanwendung in Kotlin / Java und Vue. Dabei wende ich technische Pattern aus
-        Domain-Driven Design an, um Geschäftslogik von technischen Abhängigkeiten zu befreien und verschiedene
-        Anwendungsfälle lose über Events zu verbinden. Ich teste die Anwendungsfälle über qualitative
-        Integrationstests.
+        Ich schreibe webbasierte Geschäftsanwendung in Kotlin / Java und Vue. Über die technischen Pattern aus
+        Domain-Driven Design schreibe ich technisch unabhängige und lose gekoppelte Geschäftslogik.
+        Ich teste den Code über qualitative Integrationstests.
       </p>
       <p>
         Mir ist es wichtig einfache Lösungen zu produzieren und nehme mir vorab Zeit über ein gutes Konzept
