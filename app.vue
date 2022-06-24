@@ -62,10 +62,6 @@
 <script setup>
 import {useHead} from "nuxt/app";
 
-/*<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">*/
-
 useHead({
   title: 'Felix Seemann',
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
