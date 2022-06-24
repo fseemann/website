@@ -67,7 +67,9 @@ useHead({
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   charset: 'utf-8',
   meta: [
-    { name: 'description', content: 'My amazing site.' }
+    { name: 'keywords', content: 'Software development, Domain-Driven Design, Freelancer, Kotlin, Java, Vue' },
+    { name: 'description', content: 'Freelancer website.' },
+    { name: 'author', content: 'Felix Seemann'}
   ],
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com'},
