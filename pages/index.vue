@@ -10,7 +10,7 @@
     <main class="text-lg leading-relaxed md:text-xl md:leading-loose space-y-16 mt-16">
       <p>
         Ich schreibe webbasierte Geschäftsanwendungen in Kotlin / Java und Vue. Durch die technischen Pattern aus
-        Domain-Driven Design ensteht technisch unabhängige und lose gekoppelte Geschäftslogik.
+        Domain-Driven Design ensteht Framework unabhängige und lose gekoppelte Geschäftslogik.
         Ich teste den Code über qualitative Integrationstests.
       </p>
       <p>
