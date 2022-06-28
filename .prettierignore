@@ -1,0 +1,7 @@
+.idea/
+.nuxt/
+node_modules/
+assets/
+public/
+dist/
+coverage/

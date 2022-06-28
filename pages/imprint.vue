@@ -1,7 +1,11 @@
 <template>
   <main class="py-16 space-y-8">
     <nav aria-label="Main">
-      <nuxt-link class="underline" to="/">&#8592; Zurück</nuxt-link>
+      <nuxt-link
+        class="underline"
+        to="/"
+        >&#8592; Zurück</nuxt-link
+      >
     </nav>
     <article class="space-y-8">
       <h1 class="font-bold">Impressum</h1>
@@ -10,7 +14,7 @@
         <p>Felix Seemann</p>
         <p>Gartenstraße 5</p>
         <p>49179 Ostercappeln</p>
-        <br>
+        <br />
         <p>+49 (0) 151 228 963 81</p>
         <p>fseemann@mail.de</p>
       </section>
