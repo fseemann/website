@@ -19,7 +19,7 @@
     >
       <p>
         Ich schreibe webbasierte Geschäftsanwendungen in Kotlin / Java und Vue.
-        Durch die technischen Pattern aus Domain-Driven Design entsteht Framework
+        Durch die taktischen Pattern aus Domain-Driven Design entsteht Technologie
         unabhängige und lose gekoppelte Geschäftslogik. Ich teste den Code über
         qualitative Integrationstests.
       </p>
