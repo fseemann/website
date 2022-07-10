@@ -32,7 +32,7 @@ useHead({
       content:
         'Software development, Domain-Driven Design, Freelancer, Kotlin, Java, Vue',
     },
-    { name: 'description', content: 'Freelancer website.' },
+    { name: 'description', content: 'Freiberuflicher Full-Stack Developer und Domain-Driven Design Spezialist.' },
     { name: 'author', content: 'Felix Seemann' },
   ],
   link: [
