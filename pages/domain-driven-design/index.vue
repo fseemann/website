@@ -1,3 +1,9 @@
+<script setup>
+import Prism from '../../plugins/prism'
+
+onMounted(() => Prism.highlightAll())
+</script>
+
 <template>
   <main class='py-16'>
     <div>
@@ -9,10 +15,10 @@
     </div>
     <div>
       <pre>
-<code lang='kotlin'>
+<code class='language-kotlin'>
 class TimeRecordController {
   fun findTimeRecords(): TimeRecordDto {
-    val timeRecords = service.<NuxtLink class='outline-none ring' to='#list-time-records'>listTimeRecords()</NuxtLink>
+    val timeRecords = service.listTimeRecords()
     return timeRecords.map(this::toDto)
   }
 }

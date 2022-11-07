@@ -13,4 +13,5 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/tailwind.css'],
+  plugins: ['~/plugins/prism']
 })
