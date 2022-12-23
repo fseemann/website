@@ -1,9 +1,10 @@
 export default defineNuxtConfig({
+  modules: ['@nuxt/content'],
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {}
-    }
+      autoprefixer: {},
+    },
   },
-  css: ["~/assets/tailwind.css"]
-});
+  css: ['~/assets/tailwind.css'],
+})
