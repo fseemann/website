@@ -7,4 +7,10 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/tailwind.css'],
+  content: {
+    highlight: {
+      preload: ['java'],
+      theme: 'github-dark',
+    },
+  },
 })
