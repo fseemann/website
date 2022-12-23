@@ -3,6 +3,12 @@
     <div
       class="mx-auto max-w-screen-lg px-8 py-16 text-slate-400 antialiased font-sans"
     >
+      <header>
+        <nav>
+          <NuxtLink>Home</NuxtLink>
+          <NuxtLink>Blog</NuxtLink>
+        </nav>
+      </header>
       <NuxtPage />
       <footer class="text-sm leading-relaxed">
         <p>© 2022 Felix Seemann</p>

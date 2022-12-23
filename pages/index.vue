@@ -1,6 +1,6 @@
 <template>
   <div class="py-16">
-    <header>
+    <div>
       <h1
         class="font-bold text-4xl leading-relaxed md:text-6xl md:leading-loose text-slate-100"
       >
@@ -13,7 +13,7 @@
         >
         mit 7+ Jahren Berufserfahrung.
       </p>
-    </header>
+    </div>
     <main
       class="text-lg leading-relaxed md:text-xl md:leading-loose space-y-16 mt-16"
     >
