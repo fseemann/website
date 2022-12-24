@@ -1,19 +1,5 @@
 <template>
   <div class="py-16">
-    <div>
-      <h1
-        class="font-bold text-4xl leading-relaxed md:text-6xl md:leading-loose text-slate-100"
-      >
-        Felix Seemann 👋
-      </h1>
-      <p class="text-lg leading-relaxed md:text-xl md:leading-loose">
-        <span class="text-slate-100 font-bold">Full-Stack Developer</span> und
-        <span class="text-slate-100 font-bold"
-          >Domain-Driven Design Spezialist</span
-        >
-        mit 7+ Jahren Berufserfahrung.
-      </p>
-    </div>
     <main
       class="text-lg leading-relaxed md:text-xl md:leading-loose space-y-16 mt-16"
     >

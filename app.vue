@@ -1,16 +1,28 @@
 <template>
-  <div class="min-h-screen bg-slate-900">
+  <div class="bg-slate-900">
     <div
-      class="mx-auto max-w-screen-lg px-8 py-16 text-slate-400 antialiased font-sans"
+      class="min-h-screen mx-auto max-w-screen-lg px-8 py-16 text-slate-400 antialiased font-sans flex flex-col"
     >
       <header>
-        <nav>
-          <NuxtLink>Home</NuxtLink>
-          <NuxtLink>Blog</NuxtLink>
+        <nav class="flex justify-between text-slate-100">
+          <div>
+            <NuxtLink class="font-bold text-2xl" to="/">Felix Seemann</NuxtLink>
+            <p class="mt-4 leading-relaxed max-w-lg">
+              <span class="text-slate-100 font-bold">Full-Stack Developer</span> und
+              <span class="text-slate-100 font-bold"
+              >Domain-Driven Design Spezialist</span
+              >
+              mit 7+ Jahren Berufserfahrung.
+            </p>
+          </div>
+          <div class="flex items-start space-x-6">
+            <NuxtLink class="font-medium" to="/blog">Blog</NuxtLink>
+            <a href="mailto:fseemann@mail.de" class="font-medium">Contact</a>
+          </div>
         </nav>
       </header>
       <NuxtPage />
-      <footer class="text-sm leading-relaxed">
+      <footer class="text-sm leading-relaxed mt-auto">
         <p>© 2022 Felix Seemann</p>
         <nav aria-label="Legal">
           <p>
@@ -40,14 +52,6 @@ useHead({
     },
     { name: 'description', content: 'Freiberuflicher Full-Stack Developer und Domain-Driven Design Spezialist.' },
     { name: 'author', content: 'Felix Seemann' },
-  ],
-  link: [
-    { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-    { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOrigin: true },
-    {
-      rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap',
-    },
   ],
 })
 </script>

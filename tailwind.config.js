@@ -3,7 +3,7 @@ module.exports = {
   content: ['./*.vue', './pages/**/*.vue'],
   theme: {
     fontFamily: {
-      sans: ['Montserrat', 'ui-sans-serif', 'system-ui'],
+      sans: ['Inter', 'ui-sans-serif', 'system-ui'],
     },
     extend: {},
   },

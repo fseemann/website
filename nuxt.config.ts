@@ -12,5 +12,8 @@ export default defineNuxtConfig({
       preload: ['java'],
       theme: 'github-dark',
     },
+    navigation: {
+      fields: ['description', 'writtenAt'],
+    },
   },
 })
