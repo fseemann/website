@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxtjs/color-mode'],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -15,5 +15,9 @@ export default defineNuxtConfig({
     navigation: {
       fields: ['description', 'writtenAt'],
     },
+  },
+  colorMode: {
+    classSuffix: '',
+    fallback: 'light',
   },
 })

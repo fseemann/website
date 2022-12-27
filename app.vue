@@ -1,35 +1,33 @@
 <template>
-  <div :class="{ 'dark': state.darkMode }">
-    <div class="bg-white dark:bg-slate-900">
-      <div
-        class="min-h-screen mx-auto max-w-screen-lg px-8 py-16 text-stone-800 dark:text-slate-100 antialiased font-sans flex flex-col"
-      >
-        <header>
-          <nav class="flex justify-between">
-            <div>
-              <NuxtLink class="font-bold text-2xl" to="/">Felix Seemann</NuxtLink>
-            </div>
-            <div class="flex items-center space-x-8">
-              <input-toggle v-model="state.darkMode">
-                <svg-moon class="w-4"/>
-              </input-toggle>
-            </div>
+  <div class="bg-white dark:bg-slate-900">
+    <div
+      class="min-h-screen mx-auto max-w-screen-lg px-8 py-16 text-stone-800 dark:text-slate-100 antialiased font-sans flex flex-col"
+    >
+      <header>
+        <nav class="flex justify-between">
+          <div>
+            <NuxtLink class="font-bold text-2xl" to="/">Felix Seemann</NuxtLink>
+          </div>
+          <div class="flex items-center space-x-8">
+            <input-toggle v-model="darkMode">
+              <svg-moon class="w-4" />
+            </input-toggle>
+          </div>
+        </nav>
+      </header>
+      <NuxtPage />
+      <div class="mt-auto">
+        <footer class="mt-16 flex justify-between">
+          <p>© 2022 Felix Seemann</p>
+          <nav aria-label="Legal">
+            <nuxt-link
+              to="imprint"
+              class="underline"
+            >Imprint
+            </nuxt-link
+            >
           </nav>
-        </header>
-        <NuxtPage />
-        <div class="mt-auto">
-          <footer class="mt-16 flex justify-between">
-            <p>© 2022 Felix Seemann</p>
-            <nav aria-label="Legal">
-              <nuxt-link
-                to="imprint"
-                class="underline"
-              >Imprint
-              </nuxt-link
-              >
-            </nav>
-          </footer>
-        </div>
+        </footer>
       </div>
     </div>
   </div>
@@ -51,13 +49,15 @@ useHead({
   ]
 });
 
-const state = reactive({ darkMode: false })
-watch(() => state.darkMode, (newValue) => {
-  localStorage.setItem('darkMode', newValue === true ? 'on' : 'off')
-})
+const colorMode = useColorMode();
 
-onMounted(() => {
-  state.darkMode = localStorage.getItem('darkMode') === 'on'
+const darkMode = computed({
+  get () {
+    return colorMode.preference === "dark"
+  },
+  set (newValue) {
+    colorMode.preference = newValue ? "dark" : "light"
+  }
 })
 
 </script>
