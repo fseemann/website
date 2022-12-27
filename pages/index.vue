@@ -1,8 +1,4 @@
 <template>
-  <!--  <p class="mt-2 max-w-lg">-->
-  <!--    I’m a Full-Stack Developer with a focus on-->
-  <!--    Software Architecture and Domain-Driven Design.-->
-  <!--  </p>-->
   <main>
     <div class="my-16">
       <ol class="mt-4 grid sm:grid-cols-2 gap-16">
