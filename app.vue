@@ -6,9 +6,9 @@
       <header>
         <nav class="flex justify-between">
           <div>
-            <NuxtLink class="font-bold text-2xl" to="/">Felix Seemann</NuxtLink>
+            <NuxtLink class="font-bold text-xl sm:text-2xl" to="/">Felix Seemann</NuxtLink>
           </div>
-          <div class="flex items-center space-x-8">
+          <div class="flex items-center space-x-4 sm:space-x-8">
             <NuxtLink to="/blog">Blog</NuxtLink>
             <input-toggle v-model="darkMode">
               <svg-moon class="w-4" />
