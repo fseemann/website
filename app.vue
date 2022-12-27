@@ -49,7 +49,7 @@ useHead({
     { name: "author", content: "Felix Seemann" }
   ],
   script: [
-    { src: 'https://platform.twitter.com/widgets.js', async: true, charSet: 'utf-8' }
+    { src: 'https://platform.twitter.com/widgets.js', charSet: 'utf-8' }
   ]
 });
 

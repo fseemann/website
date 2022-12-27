@@ -26,15 +26,21 @@
     </div>
     <div class="mt-16">
       <h2 class="font-bold text-xl sm:text-2xl">Get in touch</h2>
-      <a
-        class="mt-4 inline-flex underline"
-        href="mailto:fseemann@mail.de"
-      >
-        <svg-envelope class="w-4" />
-        <span class="ml-1">fseemann@mail.de</span>
-      </a>
       <p class="mt-4">
-        <a href="https://twitter.com/felix_seemann?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @felix_seemann</a>
+        <a
+          class="inline-flex underline"
+          href="mailto:fseemann@mail.de"
+          aria-description="Link to mail"
+        >
+          <svg-envelope class="w-4" />
+          <span class="ml-1">fseemann@mail.de</span>
+        </a>
+      </p>
+      <p class="mt-4">
+        <a class="inline-flex underline" href="https://twitter.com/felix_seemann" aria-description="Link to twitter" target="_blank">
+          <svg-twitter class="w-4" />
+          <span class="ml-1">felix_seemann</span>
+        </a>
       </p>
       <p class="mt-4">I am based in germany but feel free to contact me regardless of your country.</p>
     </div>
