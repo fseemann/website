@@ -7,34 +7,30 @@
         <nav class="flex justify-between text-slate-100">
           <div>
             <NuxtLink class="font-bold text-2xl" to="/">Felix Seemann</NuxtLink>
-            <p class="mt-4 leading-relaxed max-w-lg">
-              <span class="text-slate-100 font-bold">Full-Stack Developer</span> und
-              <span class="text-slate-100 font-bold"
-              >Domain-Driven Design Spezialist</span
-              >
-              mit 7+ Jahren Berufserfahrung.
-            </p>
           </div>
           <div class="flex items-start space-x-6">
             <NuxtLink class="font-medium" to="/blog">Blog</NuxtLink>
             <a href="mailto:fseemann@mail.de" class="font-medium">Contact</a>
           </div>
         </nav>
+        <p class="mt-2 max-w-lg">
+          I’m a Full-Stack Developer with a focus on
+          Software Architecture and Domain-Driven Design.
+        </p>
       </header>
       <NuxtPage />
-      <footer class="text-sm leading-relaxed mt-auto">
+      <div class="mt-auto">
+      <footer class="text-slate-100 leading-relaxed mt-16 flex justify-between">
         <p>© 2022 Felix Seemann</p>
         <nav aria-label="Legal">
-          <p>
-            Mein
             <nuxt-link
               to="imprint"
               class="underline"
-              >Impressum</nuxt-link
+              >Imprint</nuxt-link
             >
-          </p>
         </nav>
       </footer>
+    </div>
     </div>
   </div>
 </template>
