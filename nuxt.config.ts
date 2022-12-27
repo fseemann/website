@@ -10,7 +10,10 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       preload: ['java'],
-      theme: 'github-dark',
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+      },
     },
     navigation: {
       fields: ['description', 'writtenAt'],
