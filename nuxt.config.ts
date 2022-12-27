@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       },
     },
     navigation: {
-      fields: ['description', 'writtenAt'],
+      fields: ['description', 'writtenAt', 'thumbnail', 'thumbnailAlt'],
     },
   },
   colorMode: {
