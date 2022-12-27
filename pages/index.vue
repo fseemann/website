@@ -30,14 +30,14 @@
         <a
           class="inline-flex underline"
           href="mailto:fseemann@mail.de"
-          aria-description="Link to mail"
+          aria-label="Link to mail"
         >
           <svg-envelope class="w-4" />
           <span class="ml-1">fseemann@mail.de</span>
         </a>
       </p>
       <p class="mt-4">
-        <a class="inline-flex underline" href="https://twitter.com/felix_seemann" aria-description="Link to twitter" target="_blank">
+        <a class="inline-flex underline" href="https://twitter.com/felix_seemann" aria-label="Link to twitter" target="_blank">
           <svg-twitter class="w-4" />
           <span class="ml-1">felix_seemann</span>
         </a>

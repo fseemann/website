@@ -45,17 +45,17 @@ useHead({
   title: "Felix Seemann",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
+  htmlAttrs: {
+    lang: 'en'
+  },
   meta: [
     {
       name: "keywords",
       content:
         "Software development, Domain-Driven Design, Freelancer, Kotlin, Java, Vue"
     },
-    { name: "description", content: "Freiberuflicher Full-Stack Developer und Domain-Driven Design Spezialist." },
+    { name: "description", content: "Freelance full-stack developer and domain-driven design specialist." },
     { name: "author", content: "Felix Seemann" }
-  ],
-  script: [
-    { src: "https://platform.twitter.com/widgets.js", charSet: "utf-8" }
   ]
 });
 
