@@ -1,17 +1,17 @@
 <template>
   <main>
     <div class="my-16">
-      <h2 class="font-bold text-2xl text-slate-100">Blog</h2>
+      <h2 class="font-bold text-2xl">Blog</h2>
       <ol class="mt-4 grid sm:grid-cols-2 gap-16">
         <ContentNavigation :query="query" v-slot="{ navigation }">
           <li class="space-y-4" v-for="blogEntry in navigation[0].children" :key="blogEntry.title">
             <img class="w-full" src="@/assets/svg/one-to-many.svg" alt="Image of a OneToMany-Relation">
             <div>
-              <h2 class="text-xl font-bold text-slate-100">{{ blogEntry.title }}</h2>
-              <p class="mt-2 text-slate-100">{{ blogEntry.description }}</p>
+              <h2 class="text-xl font-bold">{{ blogEntry.title }}</h2>
+              <p class="mt-2">{{ blogEntry.description }}</p>
             </div>
             <div>
-              <NuxtLink class="font-bold text-slate-100 underline" :to="blogEntry._path">
+              <NuxtLink class="font-bold underline" :to="blogEntry._path">
                 Read blog entry
               </NuxtLink>
             </div>
@@ -20,7 +20,7 @@
         </ContentNavigation>
       </ol>
     </div>
-    <div class="mt-16 text-slate-100">
+    <div class="mt-16">
       <h2 class="font-bold text-2xl">Get in touch</h2>
       <a
         class="mt-4 inline-block px-3 py-4 border border-emerald-500 bg-emerald-500 text-white rounded font-bold tracking-wide"

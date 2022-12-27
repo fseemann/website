@@ -1,12 +1,5 @@
 <template>
   <main class="py-16 space-y-8">
-    <nav aria-label="Main">
-      <nuxt-link
-        class="underline"
-        to="/"
-        >&#8592; Zurück</nuxt-link
-      >
-    </nav>
     <article class="space-y-8">
       <h1 class="font-bold">Impressum</h1>
       <section>

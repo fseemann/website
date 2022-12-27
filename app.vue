@@ -1,10 +1,10 @@
 <template>
   <div class="bg-slate-900">
     <div
-      class="min-h-screen mx-auto max-w-screen-lg px-8 py-16 text-slate-400 antialiased font-sans flex flex-col"
+      class="min-h-screen mx-auto max-w-screen-lg px-8 py-16 text-slate-100 antialiased font-sans flex flex-col"
     >
       <header>
-        <nav class="flex justify-between text-slate-100">
+        <nav class="flex justify-between">
           <div>
             <NuxtLink class="font-bold text-2xl" to="/">Felix Seemann</NuxtLink>
           </div>
@@ -20,7 +20,7 @@
       </header>
       <NuxtPage />
       <div class="mt-auto">
-      <footer class="text-slate-100 leading-relaxed mt-16 flex justify-between">
+      <footer class="mt-16 flex justify-between">
         <p>© 2022 Felix Seemann</p>
         <nav aria-label="Legal">
             <nuxt-link

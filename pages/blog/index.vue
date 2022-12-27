@@ -13,7 +13,7 @@
               Read blog entry
             </NuxtLink>
           </div>
-          <p class="text-slate-400">{{ formatDate(blogEntry.writtenAt) }}</p>
+          <p class="text-slate-400">{{ dateFormat.format(blogEntry.writtenAt) }}</p>
         </li>
       </ContentNavigation>
     </ol>
@@ -21,8 +21,8 @@
 </template>
 
 <script setup>
-const query = queryContent("blog");
-const dateFormatter = Intl.DateTimeFormat([], { dateStyle: "medium" });
+import { useDateFormat } from "~/shared/useDateFormat";
 
-const formatDate = (date) => dateFormatter.format(new Date(date));
+const query = queryContent("blog");
+const dateFormat = useDateFormat();
 </script>
