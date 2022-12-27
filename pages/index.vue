@@ -19,7 +19,7 @@
                 Read blog entry
               </NuxtLink>
             </div>
-            <p class="text-slate-400">{{ dateFormat.format(blogEntry.writtenAt) }}</p>
+            <p class="text-stone-600 dark:text-slate-400">{{ dateFormat.format(blogEntry.writtenAt) }}</p>
           </li>
         </ContentNavigation>
       </ol>

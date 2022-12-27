@@ -2,8 +2,8 @@
   <main class="py-16">
     <article>
       <ContentDoc :path="route.path" v-slot="{doc}">
-        <p class="text-slate-200">{{ dateFormat.format(doc.writtenAt) }}</p>
-        <ContentRenderer class="mt-4 prose prose-invert sm:prose-lg lg:prose-xl" :value="doc" />
+        <p class="text-stone-600 dark:text-slate-200">{{ dateFormat.format(doc.writtenAt) }}</p>
+        <ContentRenderer class="mt-4 prose dark:prose-invert sm:prose-lg lg:prose-xl" :value="doc" />
       </ContentDoc>
     </article>
   </main>
