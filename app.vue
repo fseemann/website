@@ -13,10 +13,6 @@
             <a href="mailto:fseemann@mail.de" class="font-medium">Contact</a>
           </div>
         </nav>
-        <p class="mt-2 max-w-lg">
-          I’m a Full-Stack Developer with a focus on
-          Software Architecture and Domain-Driven Design.
-        </p>
       </header>
       <NuxtPage />
       <div class="mt-auto">

@@ -1,4 +1,8 @@
 <template>
+  <p class="mt-2 max-w-lg">
+    I’m a Full-Stack Developer with a focus on
+    Software Architecture and Domain-Driven Design.
+  </p>
   <main>
     <div class="my-16">
       <h2 class="font-bold text-2xl">Blog</h2>
