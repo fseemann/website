@@ -52,6 +52,6 @@
 <script setup>
 import { useDateFormat } from "~/shared/useDateFormat";
 
-const query = queryContent("blog");
+const query = queryContent("blog").limit(1).sort({ writtenAt: -1 })
 const dateFormat = useDateFormat();
 </script>
