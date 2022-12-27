@@ -9,6 +9,7 @@
             <NuxtLink class="font-bold text-2xl" to="/">Felix Seemann</NuxtLink>
           </div>
           <div class="flex items-center space-x-8">
+            <NuxtLink to="/blog">Blog</NuxtLink>
             <input-toggle v-model="darkMode">
               <svg-moon class="w-4" />
             </input-toggle>
