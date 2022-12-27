@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/color-mode', '@nuxt/image-edge'],
+  modules: ['@nuxt/content', '@nuxtjs/color-mode'],
   postcss: {
     plugins: {
       tailwindcss: {},
