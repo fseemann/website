@@ -47,6 +47,9 @@ useHead({
     },
     { name: "description", content: "Freiberuflicher Full-Stack Developer und Domain-Driven Design Spezialist." },
     { name: "author", content: "Felix Seemann" }
+  ],
+  script: [
+    { src: 'https://platform.twitter.com/widgets.js', async: true, charSet: 'utf-8' }
   ]
 });
 
