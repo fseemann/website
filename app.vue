@@ -63,7 +63,7 @@ const colorMode = useColorMode();
 
 const darkMode = computed({
   get() {
-    return colorMode.preference === "dark";
+    return colorMode.value === "dark";
   },
   set(newValue) {
     colorMode.preference = newValue ? "dark" : "light";
