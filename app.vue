@@ -28,7 +28,7 @@
           <p>© 2022 Felix Seemann</p>
           <nav aria-label="Legal">
             <nuxt-link
-              to="imprint"
+              to="/imprint"
               class="underline"
             >Imprint
             </nuxt-link
