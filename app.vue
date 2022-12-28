@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-white dark:bg-slate-900">
+  <div class="bg-white dark:bg-neutral-900">
     <div
-      class="min-h-screen mx-auto max-w-screen-lg px-8 py-8 text-stone-800 dark:text-slate-100 antialiased font-sans leading-snug flex flex-col"
+      class="min-h-screen mx-auto max-w-screen-lg px-8 py-8 text-neutral-800 dark:text-neutral-100 antialiased font-sans leading-snug flex flex-col"
     >
       <header>
         <nav>
