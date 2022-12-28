@@ -10,7 +10,7 @@
       Read blog entry
     </NuxtLink>
   </div>
-  <p class="text-neutral-600 dark:text-neutral-300">{{ dateFormat.format(blogEntry.writtenAt) }}</p>
+  <p class="text-neutral-600 dark:text-neutral-200">{{ dateFormat.format(blogEntry.writtenAt) }}</p>
 </section>
 </template>
 
