@@ -11,7 +11,7 @@
         <li>
           <h2 class="font-bold text-xl sm:text-2xl">About me</h2>
           <div class="mt-4 sm:flex sm:space-x-4">
-            <img class="mb-4 sm:mb-0 rounded max-w-16 max-h-32 object-cover" width="196" height="144" src="/img/felix-seemann.png" alt="Self-portrait" />
+            <img class="mb-4 sm:mb-0 rounded max-w-16 max-h-32 object-cover" width="196" height="144" src="/img/felix-seemann.webp" alt="Self-portrait" />
             <p class="flex-1">I am a full-stack developer with a focus on software architecture following
               Domain-Driven Design.</p>
           </div>
