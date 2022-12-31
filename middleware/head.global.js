@@ -24,5 +24,13 @@ export default defineNuxtRouteMiddleware((to, from) => {
       },
       { name: 'author', content: 'Felix Seemann' },
     ],
+    link: [
+      {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        title: 'Felix Seemann',
+        href: '/rss.xml',
+      },
+    ],
   })
 })

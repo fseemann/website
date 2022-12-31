@@ -23,4 +23,9 @@ export default defineNuxtConfig({
     classSuffix: '',
     fallback: 'light',
   },
+  nitro: {
+    prerender: {
+      routes: ['/rss.xml'],
+    },
+  },
 })
