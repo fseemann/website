@@ -52,7 +52,7 @@ useHead({
     {
       name: "keywords",
       content:
-        "Domain-Driven Design, Software Architecture, Blog"
+        "Domain-Driven Design, DDD, Software Development, Blog"
     },
     { name: "description", content: "Freelance full-stack developer and domain-driven design specialist." },
     { name: "author", content: "Felix Seemann" }
