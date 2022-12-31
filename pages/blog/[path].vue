@@ -4,7 +4,7 @@
       <ContentDoc :path="path" v-slot="{doc}">
         <p class="text-neutral-600 dark:text-neutral-200">{{ dateFormat.format(doc.writtenAt) }}</p>
         <ContentRenderer
-          class="mt-4 prose prose-pre:bg-slate-50 dark:prose-pre:bg-neutral-800 dark:prose-invert sm:prose-lg lg:prose-xl"
+          class="mt-4 prose prose-neutral prose-pre:bg-slate-50 dark:prose-pre:bg-neutral-800 dark:prose-invert sm:prose-lg lg:prose-xl"
           :value="doc" />
       </ContentDoc>
     </article>
