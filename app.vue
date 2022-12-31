@@ -41,24 +41,6 @@
 </template>
 
 <script setup>
-useHead({
-  title: "Felix Seemann",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  charset: "utf-8",
-  htmlAttrs: {
-    lang: 'en'
-  },
-  meta: [
-    {
-      name: "keywords",
-      content:
-        "Domain-Driven Design, DDD, Software Development, Blog"
-    },
-    { name: "description", content: "Freelance full-stack developer and domain-driven design specialist." },
-    { name: "author", content: "Felix Seemann" }
-  ]
-});
-
 const colorMode = useColorMode();
 
 const darkMode = computed({
