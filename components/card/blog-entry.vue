@@ -15,8 +15,6 @@
 </template>
 
 <script setup>
-import { useDateFormat } from "~/shared/useDateFormat";
-
 defineProps(['blogEntry'])
 const dateFormat = useDateFormat();
 </script>

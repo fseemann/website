@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { useDateFormat } from "~/shared/useDateFormat";
-
 const route = useRoute();
 const dateFormat = useDateFormat();
 
