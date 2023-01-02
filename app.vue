@@ -52,4 +52,5 @@ const darkMode = computed({
   }
 });
 
+useDefaultHead()
 </script>
