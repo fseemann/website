@@ -34,6 +34,7 @@ export default defineEventHandler(async (event) => {
       id: basePath + doc._path,
       link: basePath + doc._path,
       description: doc.description,
+      date: new Date(doc.writtenAt),
     })
   })
 
