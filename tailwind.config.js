@@ -6,6 +6,7 @@ module.exports = {
     './pages/**/*.vue',
     './components/**/*.vue',
     './content/**/*.md',
+    './public/svg/*.svg',
   ],
   theme: {
     fontFamily: {
