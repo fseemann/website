@@ -7,9 +7,13 @@
         <p>Felix Seemann</p>
         <p>Gartenstraße 5</p>
         <p>49179 Ostercappeln</p>
-        <br />
-        <p>+49 (0) 151 228 963 81</p>
-        <p>fseemann@mail.de</p>
+        <br/>
+        <p>
+          <a href="tel:015122806381">+49 (0) 151 228 063 81</a>
+        </p>
+        <p>
+          <a href="mailto:fseemann@mail.de">fseemann@mail.de</a>
+        </p>
       </section>
       <section>
         <h2 class="font-bold uppercase tracking-wide text-sm">Steuernummer</h2>
@@ -19,3 +23,5 @@
     </article>
   </main>
 </template>
+<script setup lang="ts">
+</script>
