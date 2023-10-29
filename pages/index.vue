@@ -42,7 +42,7 @@
           <span class="ml-1">felix_seemann</span>
         </a>
       </p>
-      <p class="mt-4">I am based in germany but feel free to contact me regardless of your country.</p>
+      <p class="mt-4">I am based in Germany but feel free to contact me regardless of your country.</p>
     </div>
   </main>
 </template>

@@ -25,7 +25,7 @@
       <NuxtPage />
       <div class="mt-auto">
         <footer class="mt-16 flex justify-between">
-          <p>© 2022 Felix Seemann</p>
+          <p>© 2023 Felix Seemann</p>
           <nav aria-label="Legal">
             <nuxt-link
               to="/imprint"
